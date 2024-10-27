@@ -25,7 +25,7 @@ function AboutMe() {
                 <div className="container d-flex justify-content-center">
                     <a href="https://www.youtube.com/watch?v=Q_chwRCWajM">
                         <img className="youtube-logo" 
-                            src="/images/youtube-logo.png" 
+                            src="./images/youtube-logo.png" 
                             alt="YouTube Logo"></img>
                     </a>
                 </div>
