@@ -6,7 +6,7 @@ function ImageOfMe() {
             <div className="container-fluid d-flex justify-content-center" id="home">
                 <img 
                 className="image-me"
-                src="/images/img-of-me.png"
+                src="./images/img-of-me.png"
                 alt="Michael Albright" />
             </div>
         );

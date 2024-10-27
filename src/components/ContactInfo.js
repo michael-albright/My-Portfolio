@@ -7,7 +7,7 @@ function ContactInfo() {
                     <li className="mt-5 d-flex align-content-center">
                         <a href="mailto:msalbrig@gmail.com">
                         <img className="logo-img"
-                        src="/images/gmail-logo.png"
+                        src="./images/gmail-logo.png"
                         alt="Google Mail Logo" />
                         </a>
                         <p className="px-3 contact-list-item">Msalbrig@gmail.com</p>
@@ -15,7 +15,7 @@ function ContactInfo() {
                     <li className="mt-2 d-flex align-content-center">
                         <a href="https://www.linkedin.com/in/michaelsalbright/">
                         <img className="logo-img"
-                        src="/images/linkedin-logo.png"
+                        src="./images/linkedin-logo.png"
                         alt="LinkedIn Logo" />
                         </a>
                         <p className="px-3 contact-list-item">Contact me on LinkedIn</p>
@@ -23,7 +23,7 @@ function ContactInfo() {
                     <li className="mt-2 d-flex align-content-center">
                         <a href="https://portfolium.com/MichaelAlbright">
                         <img className="logo-img"
-                        src="/images/portfolium-logo.png"
+                        src="./images/portfolium-logo.png"
                         alt="Portfolium Logo" />
                         </a>
                         <p className="px-3 contact-list-item">Contact me on Portfolium</p>
