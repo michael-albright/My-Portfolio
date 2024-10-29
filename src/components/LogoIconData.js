@@ -13,17 +13,27 @@ const LogoIconData = [
     },
     {
         id: "3",
-        href: "https://portfolium.com/MichaelAlbright",
-        imgUrl: "./images/portfolium-logo.png",
-        alt: "Portfolium Logo"
-    },
-    {
-        id: "4",
         href: "https://www.youtube.com/channel/UCNwtxNaoEiTdGO2aKCvfRBw",
         imgUrl: "./images/youtube-full-logo.png",
         alt: "YouTube Logo"
+    },
+    {
+        id: "4",
+        href: "mailto:msalbrig@gmail.com",
+        imgUrl: "./images/gmail-logo.png",
+        alt: "Gmail Logo"
     },
 
 ];
 
 export default LogoIconData;
+
+
+/*
+{
+        id: "3",
+        href: "https://portfolium.com/MichaelAlbright",
+        imgUrl: "./images/portfolium-logo.png",
+        alt: "Portfolium Logo"
+    },
+*/

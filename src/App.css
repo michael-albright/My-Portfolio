@@ -41,6 +41,37 @@
   display:flex;
   justify-content: center;
 }
+
+.resume-link {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.75em; 
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 3px;
+  color: #ff6f61; /* Initial color */
+  animation: glimmer 1.5s infinite alternate; /* Glimmer effect */
+}
+
+.resume-link:hover {
+  text-decoration: none;
+}
+
+@keyframes glimmer {
+  0% {
+    color: #ff6f61;
+    text-shadow: 0 0 5px #ff6f61;
+  }
+  50% {
+    color: #ffd700;
+    text-shadow: 0 0 10px #ffd700;
+  }
+  100% {
+    color: #ff4500;
+    text-shadow: 0 0 15px #ff4500;
+  }
+}
+
               /* HEADER SECTION */
 .image-me {
   max-width: 100%;
@@ -197,6 +228,10 @@
   .nav-link {
     font-size: .65rem;
   }
+
+  .resume-link {
+    font-size: 1rem;
+  }
 } 
 
 @media (min-width: 455px) {
@@ -292,19 +327,19 @@
   }
 
   .auto-header {
-    font-size: 2rem;
-    padding-top: 0;
+    font-size: 1.4rem;
+    padding-top: 1rem; 
   }
   
   .card-columns {
-    column-count: 3;
+    column-count: 2;
   }
 
   .part-1 {
-    font-size: .95rem;
+    font-size: .8rem;
   }
   .part-2 {
-    font-size: 1.65rem;
+    font-size: 1.25rem;
   }
 
   .about-title-2, .about-content, .about-contact-video {
@@ -356,15 +391,19 @@
   }
 
   .auto-header {
-    font-size: 3rem;
-    margin-top: -1rem;
+    font-size: 2rem;
+    padding-top: 0;
+  }
+  
+  .card-columns {
+    column-count: 3;
   }
 
   .part-1 {
-    font-size: 1.2rem;
+    font-size: .95rem;
   }
   .part-2 {
-    font-size: 2rem;
+    font-size: 1.65rem;
   }
 
   .about-title {
@@ -404,13 +443,3 @@
     margin-top: 18rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
