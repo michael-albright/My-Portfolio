@@ -10,6 +10,9 @@ import AboutMe from './components/AboutMe';
 import FootNote from './components/FootNote';
 import ProjectCard from './components/ProjectCard';
 import ProjectCardData from './components/ProjectCardData';
+import JavaTrainHeader from './components/JavaTrainHeader';
+import CloudDevCard from './components/CloudDevCard';
+import CloudDevCardData from './components/CloudDevCardData';
 
 function App() {
   const projectCard = ProjectCardData.map((project) => {
@@ -21,6 +24,18 @@ function App() {
         card_text={project.card_text} 
         youtube_link={project.youtube_link} 
         github_link={project.github_link} />
+    )
+  });
+  const cloudDevCard = CloudDevCardData.map((project) => {
+    return(
+      <CloudDevCard 
+        key={project.id} 
+        imgUrl={project.imgUrl} 
+        card_title={project.card_title} 
+        card_text={project.card_text} 
+        youtube_link={project.youtube_link} 
+        api_github_link={project.api_github_link}
+        ui_github_link={project.ui_github_link} />
     )
   });
 
@@ -44,6 +59,14 @@ function App() {
       </div>
       <div>
         <PortfolioHeader />
+      </div>
+      <div className="container">
+        <div className="card-columns">
+          {cloudDevCard}
+        </div>
+      </div>
+      <div>
+        <JavaTrainHeader />
       </div>
       <div className="container">
         <div className="card-columns">
