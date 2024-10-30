@@ -1,11 +1,11 @@
 import React from 'react';
 
-function JavaTrainHeader() {
+function JavaSkillHeader() {
         return(
-            <div className="container-fluid d-flex justify-content-center mt-2">
+            <div className="container-fluid d-flex justify-content-center mt-4">
                 <h3 className="project-header-three">Java Skill Building</h3>
             </div>
         );
     }
     
-export default JavaTrainHeader;
+export default JavaSkillHeader;
