@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCard(props) {
     return (
-    <div className="card mx-auto mt-2">
+    <div className="card col m-2">
         <img 
         src={props.imgUrl}
         className="card-img-top" 
