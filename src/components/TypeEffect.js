@@ -17,12 +17,12 @@ export class TypeEffect extends React.Component {
       "SOAP", "Microservices", "OOP", "ORM" ];
 
     const stringStart = "I work with";
-    const lastString = "I am a Software Engineer.";
+    const lastString = "Software Engineer";
 
     const shuffledTechStack = techStack.map(value => ({ 
         value, sort: Math.random() 
       })).sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => `${stringStart} ${value}.`);
+      .map(({ value }) => `${value}`);
 
       // Push lastString to the end of the array without additional formatting
       shuffledTechStack.push(lastString);
