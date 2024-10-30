@@ -147,6 +147,10 @@
   /* font-size: 1.3rem; */
 }
 
+.cloud-content {
+  min-width: 40rem !important;
+}
+
 .card-text {
   font-size: .75rem;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function CloudDevCard(props) {
     return (
-    <div className="card mx-auto mt-4">
+    <div className="card cloud-content">
         <img 
         src={props.imgUrl}
         className="card-img-top" 

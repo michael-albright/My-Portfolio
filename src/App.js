@@ -61,7 +61,7 @@ function App() {
         <PortfolioHeader />
       </div>
       <div className="container">
-        <div className="card-columns">
+        <div className="d-flex justify-content-center">
           {cloudDevCard}
         </div>
       </div>
