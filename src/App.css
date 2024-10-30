@@ -141,10 +141,10 @@
   float: none;
 
 }
-.project-header {
+.project-header, .project-header-three  {
   color: rgb(236, 183, 8);
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
 }
 
 .card-text {
@@ -278,10 +278,6 @@
     max-block-size: 3rem;
     width: 100%;
   }
-
-  .project-header {
-    font-size: 1.65rem;
-  } 
 }
 
 @media (min-width: 576px) {
@@ -425,8 +421,8 @@
     margin-top: 1.5rem;
   }
 
-  .project-header {
-    font-size: 2.5rem;
+  .project-header-three {
+    /* font-size: 2.5rem; */
     margin-bottom: 1.5rem;
   }
 }
