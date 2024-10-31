@@ -74,10 +74,8 @@ function App() {
       <div>
         <PortfolioHeader />
       </div>
-      <div className="container">
-        <div className="row align-items-start d-flex justify-content-center">
+      <div className="container d-flex justify-content-center">
           {cloudDevCard}
-        </div>
       </div>
       <div>
         <ProjectCardHeader />
