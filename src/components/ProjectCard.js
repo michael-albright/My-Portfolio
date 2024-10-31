@@ -2,10 +2,10 @@ import React from 'react';
 
 function ProjectCard(props) {
     return (
-    <div className="card col m-2">
+    <div className="card col mx-2">
         <img 
         src={props.imgUrl}
-        className="card-img-top" 
+        className="card-img-top mt-2" 
         alt={props.alt}/>
         <div className="card-body">
             <h5 className="card-title d-flex justify-content-center">{props.card_title}</h5>

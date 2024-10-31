@@ -147,10 +147,6 @@
   /* font-size: 1.3rem; */
 }
 
-.cloud-content {
-  min-width: 40rem !important;
-}
-
 .card-text {
   font-size: .75rem;
 }
@@ -216,6 +212,7 @@
 }
                   /* BREAKPOINTS */
 @media (max-width: 372px) {
+
   .icon-logo {
     display: none;
   }
@@ -285,6 +282,7 @@
 }
 
 @media (min-width: 576px) {
+
   .image-me {
     max-width: 100%;
     height: auto;
@@ -318,6 +316,7 @@
 }
 
 @media (min-width: 768px) {
+
   .type-effect-container {
     margin: 4rem 4rem 0 0;
   }
@@ -364,7 +363,6 @@
 
   .contact-input {
     min-width: 14rem;
-
   }
 }
 
@@ -375,9 +373,11 @@
 }
 
 @media (min-width: 1000px) {
+
   .type-effect-container {
     margin-top: 11rem;
   }
+
 }
 
 @media (min-width: 1100px) {
@@ -390,10 +390,6 @@
     font-size: 2rem;
     padding-top: 0;
   }
-  
-  /* .card-columns {
-    column-count: 3;
-  } */
 
   .part-1 {
     font-size: .95rem;
