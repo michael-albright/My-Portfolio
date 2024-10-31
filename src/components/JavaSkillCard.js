@@ -2,7 +2,7 @@ import React from 'react';
 
 function JavaSkillCard(props) {
     return (
-    <div className="card col mx-2">
+    <div className="card mx-2 col-lg-4 col-md-6 col-sm-12 mb-4">
         <img 
         src={props.imgUrl}
         className="card-img-top mt-2" 

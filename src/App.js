@@ -19,35 +19,35 @@ import JavaSkillCardData from './components/JavaSkillCardData';
 
 function App() {
   const projectCard = ProjectCardData.map((project) => {
-    return(
-      <ProjectCard 
-        key={project.id} 
-        imgUrl={project.imgUrl} 
-        card_title={project.card_title} 
-        card_text={project.card_text} 
-        youtube_link={project.youtube_link} 
+    return (
+      <ProjectCard
+        key={project.id}
+        imgUrl={project.imgUrl}
+        card_title={project.card_title}
+        card_text={project.card_text}
+        youtube_link={project.youtube_link}
         github_link={project.github_link} />
     )
   });
   const javaSkillCard = JavaSkillCardData.map((project) => {
-    return(
-      <JavaSkillCard 
-        key={project.id} 
-        imgUrl={project.imgUrl} 
-        card_title={project.card_title} 
-        card_text={project.card_text} 
-        youtube_link={project.youtube_link} 
+    return (
+      <JavaSkillCard
+        key={project.id}
+        imgUrl={project.imgUrl}
+        card_title={project.card_title}
+        card_text={project.card_text}
+        youtube_link={project.youtube_link}
         github_link={project.github_link} />
     )
   });
   const cloudDevCard = CloudDevCardData.map((project) => {
-    return(
-      <CloudDevCard 
-        key={project.id} 
-        imgUrl={project.imgUrl} 
-        card_title={project.card_title} 
-        card_text={project.card_text} 
-        youtube_link={project.youtube_link} 
+    return (
+      <CloudDevCard
+        key={project.id}
+        imgUrl={project.imgUrl}
+        card_title={project.card_title}
+        card_text={project.card_text}
+        youtube_link={project.youtube_link}
         api_github_link={project.api_github_link}
         ui_github_link={project.ui_github_link} />
     )
@@ -75,7 +75,7 @@ function App() {
         <PortfolioHeader />
       </div>
       <div className="container">
-        <div className="d-flex justify-content-center">
+        <div className="row align-items-start d-flex justify-content-center">
           {cloudDevCard}
         </div>
       </div>
@@ -111,7 +111,7 @@ function App() {
         <FootNote />
       </footer>
     </div>
-    
+
   );
 }
 
