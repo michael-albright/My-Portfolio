@@ -43,7 +43,7 @@ function AboutMe() {
                 </p> 
                 <p className="about-content mt-4">
                 I am looking for a position that will challenge my skills. I want to be pushed out of 
-                my comfort zone and trusted to work my way out. -- In this ever changing landscape of 
+                my comfort zone and trusted to work my way back in. -- In this ever changing landscape of 
                 technologies I am always looking for new, streamlined approaches to common problems and
                 eager to unbox, learn, and utilize them. -- I am motivated by personal growth and I want 
                 to funnel that motivation into a long-term position on a great team. I will try, fail, 
@@ -52,7 +52,7 @@ function AboutMe() {
                   
                 <br/>
                 <p className="about-contact-video mx-2">
-                    If you are nterested in a little face-time check out my intro-video via YouTube. 
+                    If you are interested in a little face-time check out my intro-video via YouTube. 
                 </p>  
                 <div className="container d-flex justify-content-center">
                     <a href="https://www.youtube.com/watch?v=Q_chwRCWajM">
