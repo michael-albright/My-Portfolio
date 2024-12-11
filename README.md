@@ -1,70 +1,166 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio, a **React** application hosted statically on GitHub Pages. The project showcases my work, skills, and contact information. It is deployed from the `gh-pages` branch and updated using the scripts provided below.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+You can view the live site here:
+https://michael-albright.github.io/My-Portfolio/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Built using React for dynamic and responsive design.
+- Hosted on GitHub Pages for seamless static deployment.
+- Organized codebase to allow for easy updates and scaling.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ensure you have the following installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** (v16 or above recommended)
+- **npm** (comes with Node.js) or **yarn**
+- **Git**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/michael-albright/My-Portfolio.git
+   cd My_Portfolio
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   or
 
-## Learn More
+   ```bash
+   yarn install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Run the app locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+   or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   yarn start
+   ```
 
-### Analyzing the Bundle Size
+   The application will be available at `http://localhost:3000/`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The portfolio is hosted using **GitHub Pages** and deployed from the `gh-pages` branch. Follow these steps to update the static site:
 
-### Advanced Configuration
+### Deployment Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. **Switch to the `develop` branch**:
 
-### Deployment
+   ```bash
+   git checkout develop
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. **Make and commit changes**:
 
-### `npm run build` fails to minify
+   Update your code, then commit your changes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git add .
+   git commit -m "Update portfolio content"
+   ```
+
+3. **Build the project**:
+
+   Generate the static files:
+
+   ```bash
+   npm run build
+   ```
+
+   or
+
+   ```bash
+   yarn build
+   ```
+
+   This will create an optimized production build in the `build/` directory.
+
+4. **Deploy to `gh-pages`**:
+
+   Use the `gh-pages` package to push the `build/` directory to the `gh-pages` branch:
+
+   ```bash
+   npm run deploy
+   ```
+
+   or
+
+   ```bash
+   yarn deploy
+   ```
+
+   The deployment script automatically pushes the contents of the `build/` folder to the `gh-pages` branch.
+
+### Deployment Scripts
+
+Add the following scripts to your `package.json` if not already present:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+Ensure the `gh-pages` package is installed:
+
+```bash
+npm install --save-dev gh-pages
+```
+
+---
+
+## Folder Structure
+
+```
+My_Portfolio/
+├── public/           # Static assets
+├── src/              # React components, styles, and utilities
+├── build/            # Generated static files for deployment
+├── package.json      # Project configuration and dependencies
+└── README.md         # Documentation
+```
+
+---
+
+## Contributing
+
+If you’d like to contribute or suggest improvements, feel free to submit a pull request or open an issue on GitHub.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Contact
+
+For any inquiries or feedback, feel free to contact me via https://www.linkedin.com/in/michaelsalbright/ or msalbrig@gmail.com.
