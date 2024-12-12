@@ -12,16 +12,17 @@ function CloudDevCard(props) {
                 <p className="card-text">
                     {props.card_text}
                 </p>
-                <a href={props.youtube_link}
-                    className="card-link">View YouTube Demo</a>
                 <a href={props.api_github_link}
-                    className="card-link m-0">View API Code</a>
+                    className="card-link m-0" target="_blank">View API Code</a>
                 <a href={props.ui_github_link}
-                    className="card-link m-0">View UI Code</a>
+                    className="card-link m-0" target="_blank">View UI Code</a>
             </div>
         </div>
     )
 }
 
-
 export default CloudDevCard;
+
+// Add in once Demo is complete
+/* <a href={props.youtube_link}
+                    className="card-link">View YouTube Demo</a> */

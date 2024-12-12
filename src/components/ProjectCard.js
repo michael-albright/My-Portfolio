@@ -13,9 +13,9 @@ function ProjectCard(props) {
                 {props.card_text}
             </p>
             <a href={props.youtube_link}
-            className="card-link">View YouTube Demo</a>
+            className="card-link" target="_blank">View YouTube Demo</a>
             <a href={props.github_link}
-            className="card-link m-0">View Source Code</a>
+            className="card-link m-0" target="_blank">View Source Code</a>
         </div>
     </div>
     )
